@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Cantora+One|Meddon);
+/* @background-image-url: '../../images/base-section.png'; */
+.headcontent,
+.bookreview,
+.comment,
+.author {
+  background: url('../../images/base-section2.jpg');
+}
+.disabled {
+  pointer-events: none;
+}
+.icon-social {
+  background: #FFF;
+}
+.head .content-head {
+  background: #ed996d;
+}
+.head .logo-head {
+  font-size: 40px;
+  color: white;
+}
+.headcontent .text-content h1,
+.content-title .separator-title h2 {
+  color: #7d99c3;
+}
+span.first-word {
+  font-family: 'Meddon';
+  font-size: 50px;
+}
+span.second-word {
+  font-family: 'Cantora One';
+  font-size: 50px;
+}
+.content-title .separator-title h2 {
+  color: #7d99c3;
+  background: white;
+}
+a i.icon-social:hover {
+  background: #7d99c3;
+}
+.marketext p {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.bookreview .content-title .separator-title h2,
+.comment .content-title .separator-title h2,
+.author .content-title .separator-title h2 {
+  background: url('../../images/base-section2.jpg');
+}
+.comment .testi .testi-profile .testi-name strong {
+  color: #ed996d;
+}
+a.button.darkbg-blue.clearfix:hover {
+  background-color: #005183;
+}
+i.fa.fa-usd {
+  padding-left: 7px;
+}
+/* 
+.contentbody .benefits .items:hover {
+background: @benefits-hover-color; 
+ 
+}
+ */
+.contentbody .benefits .items i {
+  color: #ed996d;
+}
+section.bookreview .content-title .separator-title h2 {
+  background-color: rgba(0, 0, 0, 0);
+}
+section.bookreview .content-title {
+  padding-bottom: 20px;
+}
+.bookreview {
+  padding-top: 10px;
+}
+.bookreview p {
+  font-size: 17px;
+}
+.comment {
+  padding: 10px 0 30px;
+}
+.comment .testi .testi-profile .testi-name {
+  margin-top: -10px;
+}
+.comment .testi .testi-profile figure {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 0 15px 30px 20px;
+  padding: 4px;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+.comment .testi {
+  margin-top: 20px;
+}
+.top-margin {
+  margin-top: 4px;
+}
+.author {
+  padding-top: 1px;
+}
+.content-title {
+  padding-bottom: 30px;
+}
+.author .motto,
+p.bio,
+.author .bioextra {
+  margin-left: 10px;
+}
+.thumbnail {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
