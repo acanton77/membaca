@@ -1,28 +1,40 @@
 @import url(http://fonts.googleapis.com/css?family=Cantora+One|Meddon);
 /* @background-image-url: '../../images/base-section.png'; */
+/**** BACKGROUND IMAGE VERY TOP AREA, TAKE OUT BORDER *******/
+.head .phone-head {
+  background: url('../../images/base-section2.jpg');
+  border: none;
+}
+/**** BACKGROUND IMAGE FOR ALL SECTIONS *******/
 .headcontent,
 .bookreview,
 .comment,
 .author {
   background: url('../../images/base-section2.jpg');
 }
+/**** DISABLE HOVER IN BENEFITS SECTION *******/
 .disabled {
   pointer-events: none;
 }
+/**** BACKGROUND WHITE FOR SOCIAL MEDIS ICONS AT TOP *******/
 .icon-social {
   background: #FFF;
 }
+/**** BACKGROUND COLOR FOR HEADER *******/
 .head .content-head {
   background: #ed996d;
 }
+/**** SIZE AND COLOR OF TITLE *******/
 .head .logo-head {
   font-size: 40px;
   color: white;
 }
+/**** ON SECTION BREAKS, FILL IN WITH COLOR (NEEDED?) *******/
 .headcontent .text-content h1,
 .content-title .separator-title h2 {
   color: #7d99c3;
 }
+/**** DIFFERENT FONTS IN TITLE *******/
 span.first-word {
   font-family: 'Meddon';
   font-size: 50px;
@@ -31,73 +43,85 @@ span.second-word {
   font-family: 'Cantora One';
   font-size: 50px;
 }
+/**** BACKGROUND COLOR OF SEPARATOR IN BENEFITS (WHITE) *******/
 .content-title .separator-title h2 {
   color: #7d99c3;
   background: white;
 }
+/**** HOVER COLOR FOR SOCIAL ICONS AT TOP *******/
 a i.icon-social:hover {
   background: #7d99c3;
 }
+/**** QUOTE AREA UNDER TOP AREA - ITALIC *******/
 .marketext p {
   margin-bottom: 30px;
   font-style: italic;
 }
+/**** BACKGROUND IMAGE AS FILLER ON SEPERATOR *******/
 .bookreview .content-title .separator-title h2,
 .comment .content-title .separator-title h2,
 .author .content-title .separator-title h2 {
   background: url('../../images/base-section2.jpg');
 }
+/**** REVIEW SECTION - COLOR OF NAME *******/
 .comment .testi .testi-profile .testi-name strong {
   color: #ed996d;
 }
+/* 
 a.button.darkbg-blue.clearfix:hover {
-  background-color: #005183;
+  background-color: @button-hover-color;
 }
+ */
+/* 
 i.fa.fa-usd {
   padding-left: 7px;
 }
+ */
 /* 
 .contentbody .benefits .items:hover {
 background: @benefits-hover-color; 
  
 }
  */
+/**** COLOR FOR BENEFIT SECTION ICONS *******/
 .contentbody .benefits .items i {
   color: #ed996d;
 }
+/**** BACKGROUND WHITE FOR BENEFIT AREA SEPARATOR *******/
 section.bookreview .content-title .separator-title h2 {
   background-color: rgba(0, 0, 0, 0);
 }
+/**** ADD A BIT OF PADDING IN REVIEW TITLE *******/
 section.bookreview .content-title {
   padding-bottom: 20px;
 }
+/**** PADDING AND FONT IN REVIEW AREA *******/
 .bookreview {
   padding-top: 10px;
 }
 .bookreview p {
   font-size: 17px;
 }
+/**** POSTION THE NAME OF THE REVIEWER *******/
 .comment {
   padding: 10px 0 30px;
 }
 .comment .testi .testi-profile .testi-name {
   margin-top: -10px;
 }
+.top-margin {
+  margin-top: 4px;
+}
+/* 
+.comment .testi {  
+  margin-top: 20px;
+}
+ */
+/**** TAKE OUT PIX OF REVIEWER *******/
 .comment .testi .testi-profile figure {
-  float: left;
-  width: 80px;
-  height: 80px;
-  margin: 0 15px 30px 20px;
-  padding: 4px;
   background: transparent;
   box-shadow: none;
   border: none;
-}
-.comment .testi {
-  margin-top: 20px;
-}
-.top-margin {
-  margin-top: 4px;
 }
 .author {
   padding-top: 1px;
